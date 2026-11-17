@@ -27,7 +27,6 @@ Los prompts usan variables entre `{{ }}` para no publicar identificadores intern
 
 Los prompts nombran roles en lugar de personas:
 
-- **Director/a** y **jefe/a de gabinete** de la Dirección General: validan fechas.
-- **Subsecretaría**: valida políticamente los venues que lo requieren.
+- **Director/a** y **jefe/a de gabinete** de la Dirección General: validan las fechas según el criterio de cada venue.
 - **Área de coordinación de eventos**: lleva la agenda general e informa las fechas que ingresan.
 - **Legales**: sigue el circuito formal (prefactibilidad, documentación, firmas).
