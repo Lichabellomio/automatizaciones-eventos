@@ -1,0 +1,11 @@
+{
+  "range": "'19/11 al 26/11'!A1:F1000",
+  "majorDimension": "ROWS",
+  "values": [
+    ["FECHA", "EVENTO", "LUGAR", "AFORO", "APERTURA", "CIERRE"],
+    ["19/11/2026", "Recital de ejemplo", "Estadio Mas Monumental", "70000", "18:00:00", "23:30:00"],
+    ["21/11/2026", "Festival de ejemplo", "Parque Centenario (Esp. Verde Pub.)", "15000", "14:00:00", "22:00:00"],
+    ["22/11/2026", "Show de ejemplo", "Estadio José Amalfitani", "40000", "19:00:00", "23:59:00"],
+    ["25/11/2026", "Maratón de ejemplo", "Av. Figueroa Alcorta", "", "07:00:00", "11:00:00"]
+  ]
+}
