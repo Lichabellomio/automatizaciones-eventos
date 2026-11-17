@@ -1,0 +1,18 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  informe-semanal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Correr tests
+        run: python -m unittest discover -s tests -v
+      - name: Generar mensaje de ejemplo
+        run: python informe-semanal/informe.py informe-semanal/ejemplo/valores.json 19/11/2026
