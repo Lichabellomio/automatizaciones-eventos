@@ -35,7 +35,7 @@ Mantener actualizada la pestaña `{{TAB_SEGUIMIENTO}}` del Google Doc `{{NOMBRE_
 1. **Grupo de WhatsApp `{{GRUPO_PLANIFICACION}}`.** El área de coordinación de eventos avisa las fechas que ingresan y la Dirección General (director, jefe de gabinete, equipo de seguimiento) las valida. Los mensajes propios aparecen sin nombre.
 2. **Grupo de WhatsApp `{{GRUPO_LEGALES}}`.** Buscalo con el buscador de chats y verificá el nombre en el encabezado (hay grupos con nombres parecidos). Ahí el equipo de Legales y el jefe de gabinete siguen el circuito formal: prefactibilidades, documentación, cartas de intención, observaciones, firmas. Tomá **solo** lo vinculado a eventos y fechas; ignorá postales, contraprestaciones de comunicación y notas administrativas. Si un evento aparece solo en este grupo, igual se registra.
 3. **Google Doc `{{NOMBRE_DOC_PUNTEO}}`** (ID `{{ID_DOC_PUNTEO}}`). Solo las secciones "Seguimiento eventos dd/mm" (reunión semanal de seguimiento; las más nuevas arriba). Ignorar "Postales" y cualquier otra sección.
-4. **Criterio de validación:** pestaña `{{TAB_CIRCUITO}}` del mismo doc. Define qué venues requieren validación de la Subsecretaría y cuáles se evalúan por saturación de corredor y fecha. Se registra **cualquier** evento que pase por los grupos, no solo los del circuito.
+4. **Criterio de validación:** pestaña `{{TAB_CIRCUITO}}` del mismo doc. Define qué venues requieren validación de la Dirección y cuáles se evalúan por saturación de corredor y fecha. Se registra **cualquier** evento que pase por los grupos, no solo los del circuito.
 
 ### Pasos
 
@@ -48,7 +48,7 @@ Mantener actualizada la pestaña `{{TAB_SEGUIMIENTO}}` del Google Doc `{{NOMBRE_
 3. **Minutas:** buscá secciones "Seguimiento eventos dd/mm" más nuevas que la marca.
 4. Si no hay nada nuevo en ninguna fuente, no modifiques el documento, cerrá la ventana y terminá sin notificar.
 5. **Actualizá EN CURSO:** un evento = una fila (cruzá ambos grupos). Si existe, actualizá Fecha/s, Situación, Estado, Próximo paso y Última novedad (`dd/mm hh:mm – autor`, indicando el grupo de origen). Si es nuevo, agregá una fila al final (`insertTableRow` + `insertText`, procesando índices de mayor a menor). Texto de la tabla a 8 pt.
-   Estados posibles: Ingresó / Aviso de coordinación / En análisis DG / Enviado a Subsecretaría / En Jefatura / Validado políticamente / Aviso a coordinación y Legales / Circuito formal iniciado / Observado / Buscando fecha alternativa / Rechazado.
+   Estados posibles: Ingresó / Aviso de coordinación / En análisis de la Dirección / Validado por la Dirección / Aviso a coordinación y Legales / Circuito formal iniciado / Observado / Buscando fecha alternativa / Rechazado.
 6. **Cierre:** cuando un evento termina el circuito (validado con OK final, o rechazado / dado de baja), borrá su fila de EN CURSO y agregá una en CERRADOS con Resultado, Conclusión final (1-2 oraciones) y Fecha de cierre.
 7. Actualizá la marca del párrafo Fuentes con la hora actual y hasta dónde se leyó cada fuente.
 8. Verificá releyendo la pestaña que no haya celdas corridas.
