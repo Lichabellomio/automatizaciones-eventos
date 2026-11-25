@@ -23,6 +23,16 @@ Los prompts usan variables entre `{{ }}` para no publicar identificadores intern
 | `{{GRUPO_PLANIFICACION}}` | Grupo de WhatsApp donde ingresan y se validan fechas | `Fechas eventos` |
 | `{{GRUPO_LEGALES}}` | Grupo de WhatsApp del circuito formal con Legales | `Circuito legales` |
 
+## Reporte semanal
+
+| Variable | Qué es | Ejemplo |
+|---|---|---|
+| `{{MAIL_REPORTE}}` | Dirección que envía el reporte semanal | `coordinacion@ejemplo.gob.ar` |
+| `{{ASUNTO_REPORTE}}` | Comienzo del asunto del mail | `Reporte semanal` |
+| `{{TAB_REPORTE}}` | Pestaña del doc de seguimiento donde se vuelca el reporte | `t.zzzzzzzz` |
+
+`reporte_tab.py` también acepta las variables de entorno `REPORTE_REMITENTE` y `REPORTE_TITULO` para el texto de la nota y el título de la pestaña.
+
 ## Roles
 
 Los prompts nombran roles en lugar de personas:

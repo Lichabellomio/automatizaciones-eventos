@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+chunk*.json
+state*.json
+delta.json
+requests.json
